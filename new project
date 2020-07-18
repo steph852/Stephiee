@@ -1,0 +1,90 @@
+echo "# Stephiee" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/steph852/Stephiee.git
+git push -u origin master
+<!DOCTYPE html>
+
+<html>
+<style>
+.head{
+	background-color:#003344;color:white;font-weight:bold;font-size:30px;
+	text-align:center;padding:10px;
+}
+.class{
+	background-color:#F7CA79;color:black;font-weight:bold-size:15px;
+	text-align:center;padding:8px;
+}
+body{
+	font-size:20px 
+}
+h3{
+	font-size:20px; font-family:"Ink Free";text-decoration:underline;
+}
+button{
+	font-size:20px; font-family:"Corbel";margin-top:10px;margin-bottom:10px;text-align:left
+}
+
+div.content{
+	background-color:#B6D7DC;color:black;padding:10px;border:3px dashed #888888;text-align:center
+}
+div{
+	font-size:15px; font-family:"Kristen ITC" 
+
+</style>
+<script type="text/javascript">
+function start(){
+	var text=document.getElementById("text");
+	text.classList.add("effect");
+}
+</script>
+<style type="text/css">
+.effect{
+animation:blink is infinite;
+}
+@keyframes blink{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+}
+</style>
+
+<head>
+	<title> Stephanie's page </title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id="text"> Hi</div>
+	<button onclick="start();">Start</button>
+	<div class="head">Welcome to Stephanie's Webpage Design</div>
+	<main>
+		<div class="item">My Sketch</div>
+		<div class="item">My Design</div>
+		<div class="item">Contact</div>
+	</main>
+	<div class="class">
+	<div background-color:#CCFFCC>I'm Stephanie, This is my first webpage design </div> 
+	<div>There are still a lot for me to learn, but thanks for taking your time to view this page!</div> 
+	</div>
+	<div class="content">
+	<h3> 我的插畫 My Sketch </h3></div>
+	<div class="class">
+	<img src="2.jpg"></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="1.jpg"></img></div>
+	<div class="content"><h3> 我的作品 My Designs </h3></div>
+	<div class="class">
+		<button id="btn"><style="font-size:20px;text-align:left"><a href="https://xd.adobe.com/view/0a76b0a8-dc8e-4cb5-85e7-5201800442e3-5f25/">My webpage design project</a><br/></button>
+		<button id="btn"><style="font-size:20px;text-align:left"><a href="https://xd.adobe.com/view/b534c401-91a2-43fd-ab63-b5219d8565bc-e067/">My iPhone 11 design project</a><br/></button>
+		<li style="font-size:20px;text-align:Left;display:flex;flex-wrap:wrap;">Line 貼圖作品:</li>
+		<a href="https://store.line.me/stickershop/product/12461281/zh-Hant"/><img src="10.jpg"></img></a>
+		<a href="https://store.line.me/stickershop/product/12413953/zh-Hant"/><img src="6.jpg"></img></a>
+	</div>
+	<div class="content">
+	<h3> 與我聯絡 Contact Me </h3>
+		<div>手機:0928027703</div>
+		<div>Email: stef@bonemd.net</div></div>
+	<div class="content">
+		填寫信息 Leave a Message <input type="text" /> <button id="btn"; style="font-size:20px">Send</button>
+
+</body>
+</html>
